@@ -1,257 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/editText7"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="222dp" />
+        <TextView
+            android:id="@+id/weight_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="weight"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="32dp" />
+        <EditText
+            android:id="@+id/weight_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="weight"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="32dp" />
 
-    <EditText
-        android:id="@+id/editText8"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="252dp" />
-
-    <EditText
-        android:id="@+id/editText9"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="311dp" />
-
-    <EditText
-        android:id="@+id/editText12"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="342dp" />
-
-    <EditText
-        android:id="@+id/editText10"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="278dp" />
-
-    <EditText
-        android:id="@+id/editText11"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="87dp" />
-
-    <EditText
-        android:id="@+id/editText15"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="119dp" />
-
-    <EditText
-        android:id="@+id/editText16"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="144dp" />
-
-    <EditText
-        android:id="@+id/editText17"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="177dp" />
-
-    <EditText
-        android:id="@+id/editText18"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="209dp" />
-
-    <EditText
-        android:id="@+id/editText19"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="236dp" />
-
-    <EditText
-        android:id="@+id/editText20"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="276dp" />
-
-    <EditText
-        android:id="@+id/editText21"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="311dp" />
-
-    <EditText
-        android:id="@+id/editText22"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="342dp" />
-
-    <EditText
-        android:id="@+id/editText23"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="32dp" />
-
-    <EditText
-        android:id="@+id/editText13"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="32dp" />
-
-    <EditText
-        android:id="@+id/editText14"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="62dp" />
-
-    <EditText
-        android:id="@+id/editText4"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="158dp" />
-
-    <EditText
-        android:id="@+id/editText6"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="99dp"
-        tools:layout_editor_absoluteY="190dp" />
-
-    <EditText
-        android:id="@+id/editText5"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="125dp" />
-
-    <TextView
-        android:id="@+id/weight_tv"
-        android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/id_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="id"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="62dp" />
+        <EditText
+            android:id="@+id/id_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="id"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="62dp" />
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="name"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="87dp" />
+        <EditText
+            android:id="@+id/name_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="87dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="weight"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="32dp" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/id_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="id"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="62dp" />
+        <TextView
+            android:id="@+id/cfa_url_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cfa_url"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="125dp" />
+        <EditText
+            android:id="@+id/cfa_url_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="cfa_url"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="125dp" />
+        <TextView
+            android:id="@+id/vetstreet_url_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vetstreet_url"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="158dp" />
+        <EditText
+            android:id="@+id/vetstreet_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="158dp" />
 
-    <TextView
-        android:id="@+id/name_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="name"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="87dp" />
 
-    <TextView
-        android:id="@+id/cfa_url_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="cfa_url"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="125dp" />
 
-    <TextView
-        android:id="@+id/vetstreet_url_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="vetstreet_url"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="158dp" />
 
-    <TextView
-        android:id="@+id/vcahospitals_url_tv"
-        android:layout_width="wrap_content"
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="vcahospitals_url"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="190dp" />
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/vcahospitals_url_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="vcahospitals_url"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="190dp" />
+        <EditText
+            android:id="@+id/vcahospitals_url_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="vcahospitals_url"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="190dp" />
 
     <TextView
         android:id="@+id/temperament_tv"
@@ -261,45 +131,136 @@
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="222dp" />
 
-    <TextView
-        android:id="@+id/origin_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="origin"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="258dp" />
+    <EditText
+        android:id="@+id/temperament_et"
+        android:layout_width="107dp"
+        android:layout_height="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="temperament_et"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="222dp" />
 
-    <TextView
-        android:id="@+id/country_codes_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="country_codes"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="32dp" />
 
-    <TextView
-        android:id="@+id/country_code_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="country_code"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="62dp" />
+    </LinearLayout>
 
-    <TextView
-        android:id="@+id/description_tv"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="description"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="87dp" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/life_span_tv"
-        android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/origins_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="origin"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <EditText
+            android:id="@+id/origins_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="country_codes"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+
+
+        <TextView
+            android:id="@+id/country_codes_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="country_codes"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <EditText
+            android:id="@+id/country_codes_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="country_codes"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="life_span"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="116dp" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/country_code_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="country_code"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <EditText
+            android:id="@+id/country_code_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="country_code"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <TextView
+            android:id="@+id/description_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="description"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="87dp" />
+
+        <EditTextu
+            android:id="@+id/description_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="description"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="87dp" />
+
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/life_span_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="life_span"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="116dp" />
+
+        <EditText
+            android:id="@+id/life_span_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="119dp" />
 
     <TextView
         android:id="@+id/indoor_tv"
@@ -309,96 +270,298 @@
         tools:layout_editor_absoluteX="203dp"
         tools:layout_editor_absoluteY="144dp" />
 
-    <TextView
-        android:id="@+id/lap_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="lap"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="177dp" />
+    <EditText
+        android:id="@+id/indoor_et"
+        android:layout_width="107dp"
+        android:layout_height="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="indoor"
+        tools:layout_editor_absoluteX="267dp"
+        tools:layout_editor_absoluteY="144dp" />
 
-    <TextView
-        android:id="@+id/alt_names_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="alt_names"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="209dp" />
+        <TextView
+            android:id="@+id/lap_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="lap"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="177dp" />
+        <EditText
+            android:id="@+id/lap_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="177dp" />
 
-    <TextView
-        android:id="@+id/adaptability_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="adaptability"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="284dp" />
 
-    <TextView
-        android:id="@+id/affection_level_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="affection_level"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="311dp" />
 
-    <TextView
-        android:id="@+id/child_friendly_tv"
-        android:layout_width="wrap_content"
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="child_friendly"
-        tools:layout_editor_absoluteX="35dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/alt_names_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="alt_names"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+        <EditText
+            android:id="@+id/alt_names_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="209dp" />
+        <TextView
+            android:id="@+id/adaptability_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="adaptability"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="284dp" />
+        <EditText
+            android:id="@+id/adaptability_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="adaptability"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="278dp" />
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/affection_level_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="affection_level"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="311dp" />
+        <EditText
+            android:id="@+id/affection_level_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="affection_level"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="311dp" />
+        <TextView
+            android:id="@+id/child_friendly_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="child_friendly"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="342dp" />
+        <EditText
+            android:id="@+id/child_friendly_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="child_friendly"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="342dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/dog_friendly_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dog_friendly"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="242dp" />
+
+        <EditText
+            android:id="@+id/dog_friendly_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="236dp" />
+
+        <TextView
+            android:id="@+id/energy_level_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="energy_level"
+            tools:layout_editor_absoluteX="206dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+        <EditText
+            android:id="@+id/energy_level_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="276dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <TextView
+            android:id="@+id/grooming_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="grooming"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+        <EditText
+            android:id="@+id/grooming_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+        <TextView
+            android:id="@+id/health_issues_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="health_issues"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="346dp" />
+
+    <EditText
+        android:id="@+id/health_issues_et"
+        android:layout_width="107dp"
+        android:layout_height="25dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="267dp"
         tools:layout_editor_absoluteY="342dp" />
+    </LinearLayout>
 
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="87dp" />
-
-    <EditText
-        android:id="@+id/editText3"
-        android:layout_width="107dp"
-        android:layout_height="25dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="62dp" />
-
-    <TextView
-        android:id="@+id/dog_friendly_tv"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="dog_friendly"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="242dp" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/energy_level_tv"
-        android:layout_width="wrap_content"
+
+
+        <TextView
+            android:id="@+id/intelligence_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="grooming"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+        <EditText
+            android:id="@+id/intelligence_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+        <TextView
+            android:id="@+id/shedding_level_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="health_issues"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="346dp" />
+
+        <EditText
+            android:id="@+id/shedding_level_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="342dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="energy_level"
-        tools:layout_editor_absoluteX="206dp"
-        tools:layout_editor_absoluteY="276dp" />
+        android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/grooming_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="grooming"
-        tools:layout_editor_absoluteX="203dp"
-        tools:layout_editor_absoluteY="311dp" />
 
-    <TextView
-        android:id="@+id/health_issues_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="health_issues"
-        tools:layout_editor_absoluteX="208dp"
-        tools:layout_editor_absoluteY="346dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/grooming_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="grooming"
+            tools:layout_editor_absoluteX="203dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+        <EditText
+            android:id="@+id/grooming_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="311dp" />
+
+        <TextView
+            android:id="@+id/health_issues_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="health_issues"
+            tools:layout_editor_absoluteX="208dp"
+            tools:layout_editor_absoluteY="346dp" />
+
+        <EditText
+            android:id="@+id/health_issues_et"
+            android:layout_width="107dp"
+            android:layout_height="25dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="267dp"
+            tools:layout_editor_absoluteY="342dp" />
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
